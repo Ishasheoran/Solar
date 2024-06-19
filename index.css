@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
+@import url(https://fonts.google.com/specimen/Syne?query=syne);
+  body{
+      margin: 0px;line-height: 1.5;    font-family: syne, sans-serif;
+  }
+  .head{
+      width: 100%;height: 25px;background-color: #663D00;
+  }
+  .nav{
+font-size: 25px;display: flex;justify-content:space-around;list-style: none;align-items: center;
+}
+.nav a{
+text-decoration: none;color: black;
+}
+.fi{
+width: 100%;height: 355px;
+border-radius: 12px;position: relative;
+clip-path: polygon( 0 0, 100% 0, 100% 70%, 75% 70%, 70% 100%, 0 100%);
+}
+.se{border-radius:12px;
+clip-path:polygon(76% 0, 100% 0, 100% 100%, 0 100%,0 30%, 71% 30%);   
+margin-top: -4.5%;position: relative;
+width:100%;height: 350px;
+}
+.main h1{
+margin: 10px;
+}
+
+.main{
+margin-left: 10px;margin-right:10px;font-family:'Syne';
+}
+.sebox{
+position: absolute; top:205px;color: aliceblue;width:55%;text-align: right;left:5%;line-height: 1;
+}
+.sebox p,.fibox p{
+font-size: 65px;font-family: 'Nico Moji';margin: 3px;
+}
+.fibox{
+position: absolute; top:475px;color: aliceblue;left:5%; line-height: 1; 
+}
+.fibox div{
+display: flex;flex-direction: row;gap: 10px;
+}
+.extra{
+position: absolute;left:71%;top:356px;
+}
+.extra div{
+      width: 257px;height: 265px;background-color: rgba(0, 0, 0, 0.4);border-radius: 15px;display:flex;flex-direction: column;
+      gap:5px;justify-content:center;align-items: center;position: absolute;left:100px;top:30px;color: white;
+  }
+ .extra div:hover{
+  background-color: rgba(249, 135, 4, 0.4);    box-shadow: 3px 3px 29.9px #0009;
+ } 
+  .extra div input{
+      border-radius: 6px;font-size: 16px;padding: 8px;border: 0px;
+  }.extra div button{
+      background-color: orange;font-size: 16px;color: white; border-radius: 6px;padding: 10px;border: 0px;
+  }
+  .Call{
+display: flex;gap:8px; margin:auto;border-radius: 15px;margin-top: 20px;
+width:810px;height: 76px;align-items: center;background-color: #FFE5B5;margin-bottom: 60px;
+}
+
+.Call div{
+width: 405px;height: 76px;text-align: center;
+} 
+.Call div:hover{
+background: linear-gradient(#FFFFFF,#FFB067);border-radius: 15px;
+}
+@media screen and(max-width:900px) {
+.Call div{
+  width:205px;
+}
+.Call{
+  width: 410px;
+}
+}
+.acont{
+display: flex;justify-content: space-evenly;margin-top:65px;flex-wrap: wrap;margin-bottom: 60px;
+}
+.acont div{
+height: 274px;width: 550px;
+}
+.panel{
+margin: auto;padding: 8px;width: 60%;text-align: center;
+}
+.why h1{
+color: #E07716;font-size: 45px;
+}
+.why{
+display: flex;justify-content:space-around;align-items: center;height: 400px;flex-wrap: wrap;gap: 5px;
+}
+.why div{
+display: flex;align-items: center;text-align: center;flex-direction: column;
+}
+
+.p2,.p3{
+color: #E07716; 
+}
+.circle1 {
+height: 150px;width: 150px;border-radius:50% 50%;background-color:#BBF4B7;padding: 10px;display: flex;
+justify-content: center;align-items: center;flex-direction: column;
+}
+
+.box{
+height: 180px;width: 180px;border: 5px solid 
+#0B9300; display: flex;justify-content: center;align-items: center;}
+#b1{
+border-top-left-radius: 180px;border-top-right-radius:180px;
+border-bottom: 0px;border-right: 0px;
+}
+
+#b2{
+border-bottom-left-radius: 180px;border-bottom-right-radius: 180px;border-top: 0px;
+border-left:0px;border-right: 0px;
+}
+.bbox{
+display: flex;justify-content: center;margin:45px;
+}
+#b3 {
+border-top-left-radius: 180px;border-top-right-radius: 180px;
+border-bottom: 0px;border-right: 0px;border-left: 0px;
+}
+#b4 {
+border-bottom-left-radius: 180px; border-bottom-right-radius: 180px;
+border-top: 0px; border-left: 0px;
+}
+#b1:hover,#b2:hover,#b3:hover,#b4:hover{
+border-color: orange;
+}
+.circle1:hover{
+background-color:#FFD890;
+}
+
+hr{
+height: 2px;
+}
+.frame{
+background-image: url(assests/ffff2-removebg-preview.png);width:95%;height:380px;background-size:cover;
+background-position: center;background-repeat: no-repeat;display: flex;align-items:center; 
+margin: auto;
+}
+.frame:hover{
+background-image: url(assests/ff1-removebg-preview.png);
+}
+.iframe div{display: flex;flex-direction: column;text-align:center;align-items:center;width: 100px;height: 300px;
+}
+.iframe{
+justify-content:space-evenly;width:920px;margin: auto;height:450px;
+display: flex; gap: 141px;align-items:center;
+}
+.me,.sem,.four,.goal{
+width: 350px;height: 200px;
+}
+.beframe{
+text-align: center;margin-top: 40px;margin-bottom: 50px;
+}
+
+.our{display: flex;flex-direction: column; background-color: #FFAF6699;text-align: center;
+}
+.our h1{
+padding: 8px;width: 50%;text-align: center;margin: auto;
+}
+.our:hover{
+background-color: #BBF4B7;
+}
+.Products div{
+width:270px;height:425px;background-color: white;border-radius: 18px;display: flex;flex-direction: column;
+align-items: center;justify-content: center;padding: 20px;text-align: center;
+
+}
+.Products{
+display: flex;gap: 10px;width: 100%;
+height: 600px;justify-content: space-evenly;align-items: center;
+}
+.Products h1{
+text-align: center;
+}
+.star{
+display: flex;justify-content: space-around;align-items: center;padding: 25px;margin: 50px;
+}
+.star div{
+display: flex;flex-direction: column;width: 247px;height: 235px;text-align: center;align-items: center;
+}
+.star h1{
+color: orange;
+}
+.add{            width: 273px;display: flex;flex-direction: column;gap: 16px;
+  }
+  .request{
+      display: flex;border-radius: 7px;height: 200px;
+      flex-direction: column;background-color: #D6F8D4;gap: 20px;padding: 20px;
+      padding-top: 45px;padding-bottom: 45px;
+  }
+  .request:hover{
+      background-color: #FFB067;
+  }
+  .request input{
+      font-size: 17px;border-radius: 7px;
+  }
+  .fir,.sec{
+      width: 200px;
+  }
+  .th,.fo{
+      width: 418px;
+  }
+.request div{
+gap: 10px;display: flex;
+}
+  .request button{
+background-color: green;border: 0px;font-size: 15px;
+color: white;width: 200px;height: 55px;border-radius:7px;margin-top: 5px;
+}
+.Contact,.Message{
+flex-direction: column;display: flex;
+}.Contact h1,.Message h1{
+text-align: center;
+}
+.Connect{
+display: flex;justify-content: space-between;border-radius: 7px;
+border: 2px solid orange;width: 70%;padding: 40px;margin: auto;margin-top: 45px;
+}
+.social{
+margin:35px;display: flex;justify-content: center;gap: 25px;
+}
+.footer{
+background-color: #663D00;height: 48px;display: flex;margin-top: 30px; align-items: center;justify-content: space-around;
+color: white;}
+a{
+color: black;text-decoration: none;
+}
