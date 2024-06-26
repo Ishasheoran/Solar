@@ -145,12 +145,12 @@ hr{
     height: 2px;
 }
 .frame{
-    background-image: url(ffff2-removebg-preview.png);width:95%;height:380px;background-size:cover;
+    background-image: url(assests/ffff2-removebg-preview.png);width:95%;height:380px;background-size:cover;
     background-position: center;background-repeat: no-repeat;display: flex;align-items:center; 
   margin: auto;
 }
 .frame:hover{
-  background-image: url(ff1-removebg-preview.png);
+  background-image: url(assests/ff1-removebg-preview.png);
 }
 .iframe div{display: flex;flex-direction: column;text-align:center;align-items:center;width: 100px;height: 300px;
 }
@@ -279,7 +279,7 @@ border-color: orange;
     margin:35px;display: flex;justify-content: center;gap: 25px;
 }
 .main2{
-  background-image: url(Screenshot\ 2024-06-03\ 032356.png);height:400px;width: 100vw;
+  background-image: url(assests/Screenshot\ 2024-06-03\ 032356.png);height:400px;width: 100vw;
   background-position:left;background-size: 100% 100%;display:none;color: white;
 }
 .footer{
@@ -311,13 +311,13 @@ border-color: orange;
           width: 315px;
         }
         .frame{
-    background-image: url(f1s.png);height:1000px;background-size: 100% 100%;margin: auto;
+    background-image: url(assests/f1s.png);height:1000px;background-size: 100% 100%;margin: auto;
   }
   .iframe{
     flex-direction: column;gap:40px;height: fit-content;
   }
   .frame:hover{
-    background-image: url(f2s.png);
+    background-image: url(assests/f2s.png);
   }
   .iframe div{
     width: 150px;
