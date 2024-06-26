@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -14,6 +15,11 @@
         <li><a href="seervice.html">Services</a></li>
         <li><a href="contact.html">Contact Us</a></li>
     </div>
+    <div class="main2"> <div class="symbol"><a href="exp.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+  </svg></a></div>
+  <h1><span id="words">Delevering Clean Energy</span></h1>
+  <p id="change">Ekam Renewable</p></div>
     <div class="main">
   <div>  <img class="fi" src="assests/main fi.png" alt="">
     <div class="sebox">
@@ -35,6 +41,13 @@
             </div>
         </span></div>
    </div>
+    <div class="xrequest">
+      <h2>Request Callback</h2>
+      Please Complete the form
+      <input type="text" placeholder="Your Name">
+      <input type="text" placeholder="Contact No.">
+      <button>Request Call</button>
+  </div>
    <div class="Call">
     <div><h2> <img src="assests/whatsapp.png" alt="">Contact us on Whatsapp </h2></div>
     <div>  <h2> <img src="assests/telephone_126523.png" alt="" width="56px" height="27px"><a href="https://api.whatsapp.com/send?phone=9289044073">9289044073</a></h2></div>  
@@ -46,9 +59,17 @@
       <p> So here’s presenting to you, the finest Solar Panel EPC Company, ARC Renewables. Our motto is to build a nation that runs on clean and renewable energy. We cater the best quality residential and commercial Rooftop Solar systems at budget friendly prices.Incorporated with a goal of sustainability and environmental protection, we are the top leaders in providing the leading quality design engineering in Gurgaon.</p>
      </div>
       <img src="assests/7be9affcaad2401a3092ac2b096c04c7.png" alt="" height="300px" width="350px">
+      <div class="acontp"><p>So here’s presenting to you, the finest Solar Panel EPC Company, ARC Renewables. Our motto is to build a nation that runs on clean and renewable energy. We cater the best quality residential and commercial Rooftop Solar systems at budget friendly prices.Incorporated with a goal of sustainability and environmental protection, we are the top leaders in providing the leading quality design engineering in Gurgaon.</p></div>
   </div>
   <h2 class="panel">We are expert in Residential and Commercial Rooftop Solar Systems</h2>
   <hr width="30%" color="orange">
+     <div class="bbox2">   
+        <div class="box" id="bb1"><div class="circle1"><img src="assests/25.png" alt=""width="110px" height="110px">Analysis</div></div>
+      <div class="box" id="bb2"><div class="circle1"><img src="assests/26.png" alt=""width="110px" height="110px">We Listen</div></div>
+      <div class="box" id="bb3"><div class="circle1"><img src="assests/27.png" alt=""width="110px" height="110px">Concept & <br>
+        Design</div></div>
+      <div class="box" id="bb4"><div class="circle1"><img src="assests/28.png" alt=""width="110px" height="110px">Delivery</div></div>
+    </div>
   <div class="bbox">   
       <div class="box" id="b1"><div class="circle1"><img src="assests/25.png" alt=""width="110px" height="110px">Analysis</div></div>
     <div class="box" id="b2"><div class="circle1"><img src="assests/26.png" alt=""width="110px" height="110px">We Listen</div></div>
@@ -131,5 +152,22 @@
     <div class="footer"><h3>Copyright © 2024  EKAM GREEN Ventures</h3>
         <h3>Powered by EKAM GREEN Ventures</h3>
       </div>
+     <script type="text/javascript">
+          (function (){
+            var words = ["Delevering Clean Energy","Experts in residential & commercial" ],
+            i = 0;
+            setInterval(function(){ $('#words').fadeOut(function(){
+                $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+              }); }, 3000)
+          })();
+          (function () {
+            var g="ekam"
+            var change = ["Ekam Renewable","Solar System" ],
+            i = 0;
+            setInterval(function(){ $('#change').fadeOut(function(){
+                $(this).html(change[(i = (i + 1) % change.length)]).fadeIn();
+              }); }, 3000)
+          })();
+        </script> 
 </body>
 </html>
